@@ -1,0 +1,130 @@
+create database fake;
+use fake;
+drop TABLE Product_Features;
+CREATE TABLE Product_Features (
+    Product_ID INT PRIMARY KEY,
+    Product_Name VARCHAR(255) NOT NULL,
+    Actual_Market_Price DECIMAL(10,2) NOT NULL,
+    Listed_Price DECIMAL(10,2) NOT NULL,
+    Rating DECIMAL(3,2),
+    Reviews_Count INT,
+    Seller_Score DECIMAL(5,2)
+);
+
+INSERT INTO Product_Features VALUES (1001, 'iPhone 15 Pro', 120000, 113997.0, 4.28, 6537, 81.51);
+INSERT INTO Product_Features VALUES (1002, 'Samsung S25 Ultra', 110000, 108118.91, 4.21, 4960, 97.79);
+INSERT INTO Product_Features VALUES (1003, 'OnePlus 13', 70000, 69339.2, 4.76, 11925, 81.42);
+INSERT INTO Product_Features VALUES (1004, 'Vivo X200', 65000, 62230.51, 4.61, 4290, 87.7);
+INSERT INTO Product_Features VALUES (1005, 'MacBook Air M4', 115000, 108475.17, 4.36, 9255, 90.18);
+INSERT INTO Product_Features VALUES (1006, 'Dell XPS 13', 100000, 99921.7, 4.42, 9704, 97.5);
+INSERT INTO Product_Features VALUES (1007, 'Apple Watch Series 10', 45000, 44794.64, 4.45, 3067, 94.26);
+INSERT INTO Product_Features VALUES (1008, 'Galaxy Watch 7', 30000, 28014.45, 4.4, 539, 91.14);
+INSERT INTO Product_Features VALUES (1009, 'Sony WH-1000XM6', 35000, 34278.32, 4.59, 1928, 85.23);
+INSERT INTO Product_Features VALUES (1010, 'iPad Air', 60000, 58153.44, 4.61, 11344, 83.32);
+INSERT INTO Product_Features VALUES (1011, 'iPhone 15 Pro', 120000, 114576.79, 4.58, 2586, 90.11);
+INSERT INTO Product_Features VALUES (1012, 'Samsung S25 Ultra', 110000, 104827.63, 4.75, 11714, 80.72);
+INSERT INTO Product_Features VALUES (1013, 'OnePlus 13', 70000, 68211.01, 4.46, 1860, 80.73);
+INSERT INTO Product_Features VALUES (1014, 'Vivo X200', 65000, 63672.86, 4.53, 3929, 89.99);
+INSERT INTO Product_Features VALUES (1015, 'MacBook Air M4', 115000, 111636.99, 4.56, 2410, 82.95);
+INSERT INTO Product_Features VALUES (1016, 'Dell XPS 13', 100000, 97585.33, 4.22, 5202, 80.7);
+INSERT INTO Product_Features VALUES (1017, 'Apple Watch Series 10', 45000, 43740.45, 4.79, 1878, 82.24);
+INSERT INTO Product_Features VALUES (1018, 'Galaxy Watch 7', 30000, 29735.81, 4.7, 6943, 83.22);
+INSERT INTO Product_Features VALUES (1019, 'Sony WH-1000XM6', 35000, 32898.37, 4.76, 3451, 82.97);
+INSERT INTO Product_Features VALUES (1020, 'iPad Air', 60000, 57605.28, 4.49, 2463, 95.34);
+INSERT INTO Product_Features VALUES (1021, 'iPhone 15 Pro', 120000, 111404.95, 4.24, 11383, 89.94);
+INSERT INTO Product_Features VALUES (1022, 'Samsung S25 Ultra', 110000, 104639.82, 4.27, 3683, 82.76);
+INSERT INTO Product_Features VALUES (1023, 'OnePlus 13', 70000, 66914.97, 4.68, 4789, 85.17);
+INSERT INTO Product_Features VALUES (1024, 'Vivo X200', 65000, 64529.86, 4.49, 11009, 80.0);
+INSERT INTO Product_Features VALUES (1025, 'MacBook Air M4', 115000, 110194.02, 4.71, 11279, 81.7);
+INSERT INTO Product_Features VALUES (1026, 'Dell XPS 13', 100000, 93727.05, 4.77, 1767, 92.21);
+INSERT INTO Product_Features VALUES (1027, 'Apple Watch Series 10', 45000, 44132.27, 4.37, 8639, 93.54);
+INSERT INTO Product_Features VALUES (1028, 'Galaxy Watch 7', 30000, 29928.54, 4.27, 1873, 82.08);
+INSERT INTO Product_Features VALUES (1029, 'Sony WH-1000XM6', 35000, 32258.67, 4.63, 5803, 83.4);
+INSERT INTO Product_Features VALUES (1030, 'iPad Air', 60000, 57387.37, 4.48, 10278, 86.68);
+INSERT INTO Product_Features VALUES (1031, 'iPhone 15 Pro', 120000, 117635.03, 4.55, 7011, 83.67);
+INSERT INTO Product_Features VALUES (1032, 'Samsung S25 Ultra', 110000, 109425.55, 4.73, 11383, 96.7);
+INSERT INTO Product_Features VALUES (1033, 'OnePlus 13', 70000, 68403.26, 4.42, 4732, 96.48);
+INSERT INTO Product_Features VALUES (1034, 'Vivo X200', 65000, 61901.44, 4.56, 9111, 97.36);
+INSERT INTO Product_Features VALUES (1035, 'MacBook Air M4', 115000, 106290.69, 4.73, 3253, 81.71);
+INSERT INTO Product_Features VALUES (1036, 'Dell XPS 13', 100000, 92550.41, 4.27, 4513, 80.49);
+INSERT INTO Product_Features VALUES (1037, 'Apple Watch Series 10', 45000, 42717.31, 4.38, 11709, 87.92);
+INSERT INTO Product_Features VALUES (1038, 'Galaxy Watch 7', 30000, 29372.19, 4.2, 5522, 90.68);
+INSERT INTO Product_Features VALUES (1039, 'Sony WH-1000XM6', 35000, 33691.32, 4.23, 10797, 84.58);
+INSERT INTO Product_Features VALUES (1040, 'iPad Air', 60000, 57575.04, 4.77, 11001, 94.09);
+INSERT INTO Product_Features VALUES (1041, 'iPhone 15 Pro', 120000, 115428.01, 4.52, 1853, 91.97);
+INSERT INTO Product_Features VALUES (1042, 'Samsung S25 Ultra', 110000, 104109.42, 4.22, 6589, 92.91);
+INSERT INTO Product_Features VALUES (1043, 'OnePlus 13', 70000, 68887.62, 4.64, 3784, 89.59);
+INSERT INTO Product_Features VALUES (1044, 'Vivo X200', 65000, 64650.03, 4.4, 3946, 82.96);
+INSERT INTO Product_Features VALUES (1045, 'MacBook Air M4', 115000, 111085.37, 4.51, 3529, 93.98);
+INSERT INTO Product_Features VALUES (1046, 'Dell XPS 13', 100000, 97243.91, 4.49, 3809, 81.48);
+INSERT INTO Product_Features VALUES (1047, 'Apple Watch Series 10', 45000, 43617.5, 4.3, 4458, 90.11);
+INSERT INTO Product_Features VALUES (1048, 'Galaxy Watch 7', 30000, 28509.76, 4.78, 6259, 97.49);
+INSERT INTO Product_Features VALUES (1049, 'Sony WH-1000XM6', 35000, 32755.34, 4.75, 996, 80.87);
+INSERT INTO Product_Features VALUES (1050, 'iPad Air', 60000, 57826.1, 4.77, 2315, 90.67);
+INSERT INTO Product_Features VALUES (1051, 'iPhone 15 Pro', 120000, 113688.69, 4.22, 2169, 80.92);
+INSERT INTO Product_Features VALUES (1052, 'Samsung S25 Ultra', 110000, 103574.82, 4.8, 8627, 84.67);
+INSERT INTO Product_Features VALUES (1053, 'OnePlus 13', 70000, 65989.46, 4.71, 7965, 97.5);
+INSERT INTO Product_Features VALUES (1054, 'Vivo X200', 65000, 63620.67, 4.77, 1646, 95.29);
+INSERT INTO Product_Features VALUES (1055, 'MacBook Air M4', 115000, 110074.07, 4.43, 4710, 91.28);
+INSERT INTO Product_Features VALUES (1056, 'Dell XPS 13', 100000, 94245.15, 4.75, 3345, 88.65);
+INSERT INTO Product_Features VALUES (1057, 'Apple Watch Series 10', 45000, 43886.66, 4.22, 3625, 85.11);
+INSERT INTO Product_Features VALUES (1058, 'Galaxy Watch 7', 30000, 28395.4, 4.68, 4250, 80.86);
+INSERT INTO Product_Features VALUES (1059, 'Sony WH-1000XM6', 35000, 32718.4, 4.39, 6012, 95.38);
+INSERT INTO Product_Features VALUES (1060, 'iPad Air', 60000, 59317.69, 4.41, 1524, 87.55);
+INSERT INTO Product_Features VALUES (1061, 'iPhone 15 Pro', 120000, 118133.38, 4.65, 8742, 80.93);
+INSERT INTO Product_Features VALUES (1062, 'Samsung S25 Ultra', 110000, 105340.59, 4.57, 11929, 92.06);
+INSERT INTO Product_Features VALUES (1063, 'OnePlus 13', 70000, 64704.41, 4.46, 6886, 97.39);
+INSERT INTO Product_Features VALUES (1064, 'Vivo X200', 65000, 61585.65, 4.52, 9615, 97.5);
+INSERT INTO Product_Features VALUES (1065, 'MacBook Air M4', 115000, 107513.3, 4.49, 6639, 81.88);
+INSERT INTO Product_Features VALUES (1066, 'Dell XPS 13', 100000, 94369.38, 4.25, 7490, 93.84);
+INSERT INTO Product_Features VALUES (1067, 'Apple Watch Series 10', 45000, 44065.14, 4.49, 11006, 92.45);
+INSERT INTO Product_Features VALUES (1068, 'Galaxy Watch 7', 30000, 29609.43, 4.72, 6491, 83.06);
+INSERT INTO Product_Features VALUES (1069, 'Sony WH-1000XM6', 35000, 33083.69, 4.29, 2961, 92.19);
+INSERT INTO Product_Features VALUES (1070, 'iPad Air', 60000, 55424.33, 4.37, 2162, 86.91);
+INSERT INTO Product_Features VALUES (1071, 'iPhone 15 Pro', 120000, 111024.25, 4.61, 4403, 81.74);
+INSERT INTO Product_Features VALUES (1072, 'Samsung S25 Ultra', 110000, 106312.29, 4.64, 2653, 82.89);
+INSERT INTO Product_Features VALUES (1073, 'OnePlus 13', 70000, 67025.9, 4.58, 6962, 93.17);
+INSERT INTO Product_Features VALUES (1074, 'Vivo X200', 65000, 61174.06, 4.69, 556, 85.26);
+INSERT INTO Product_Features VALUES (1075, 'MacBook Air M4', 115000, 106022.14, 4.68, 6391, 95.02);
+INSERT INTO Product_Features VALUES (1076, 'Dell XPS 13', 100000, 96087.09, 4.46, 3177, 91.75);
+INSERT INTO Product_Features VALUES (1077, 'Apple Watch Series 10', 45000, 44003.13, 4.26, 6896, 93.84);
+INSERT INTO Product_Features VALUES (1078, 'Galaxy Watch 7', 30000, 28631.45, 4.4, 9220, 94.0);
+INSERT INTO Product_Features VALUES (1079, 'Sony WH-1000XM6', 35000, 34678.88, 4.39, 6645, 89.39);
+INSERT INTO Product_Features VALUES (1080, 'iPad Air', 60000, 59046.83, 4.63, 5342, 95.36);
+INSERT INTO Product_Features VALUES (1081, 'iPhone 15 Pro', 120000, 115566.43, 4.43, 2657, 86.65);
+INSERT INTO Product_Features VALUES (1082, 'Samsung S25 Ultra', 110000, 106526.5, 4.67, 1758, 97.83);
+INSERT INTO Product_Features VALUES (1083, 'OnePlus 13', 70000, 69295.29, 4.48, 5153, 94.41);
+INSERT INTO Product_Features VALUES (1084, 'Vivo X200', 65000, 60796.86, 4.32, 9377, 97.31);
+INSERT INTO Product_Features VALUES (1085, 'MacBook Air M4', 115000, 112316.74, 4.29, 8230, 83.54);
+INSERT INTO Product_Features VALUES (1086, 'Dell XPS 13', 100000, 94290.34, 4.22, 7011, 83.22);
+INSERT INTO Product_Features VALUES (1087, 'Apple Watch Series 10', 45000, 43435.67, 4.45, 503, 85.0);
+INSERT INTO Product_Features VALUES (1088, 'Galaxy Watch 7', 30000, 28941.03, 4.62, 902, 90.67);
+INSERT INTO Product_Features VALUES (1089, 'iPhone 15 Pro', 120000, 55824.98, 4.96, 2, 36.05);
+INSERT INTO Product_Features VALUES (1090, 'Samsung S25 Ultra', 110000, 44950.1, 4.95, 5, 31.72);
+INSERT INTO Product_Features VALUES (1091, 'OnePlus 13', 70000, 33787.07, 4.96, 4, 25.11);
+INSERT INTO Product_Features VALUES (1092, 'Vivo X200', 65000, 17184.64, 4.8, 1, 15.95);
+INSERT INTO Product_Features VALUES (1093, 'MacBook Air M4', 115000, 44162.75, 4.85, 6, 30.61);
+INSERT INTO Product_Features VALUES (1094, 'Dell XPS 13', 100000, 38529.9, 4.88, 13, 18.57);
+INSERT INTO Product_Features VALUES (1095, 'Apple Watch Series 10', 45000, 22266.42, 4.9, 13, 32.32);
+INSERT INTO Product_Features VALUES (1096, 'Galaxy Watch 7', 30000, 11758.78, 4.87, 12, 22.1);
+INSERT INTO Product_Features VALUES (1097, 'Sony WH-1000XM6', 35000, 12067.92, 4.97, 18, 39.14);
+INSERT INTO Product_Features VALUES (1098, 'iPad Air', 60000, 25941.18, 4.96, 2, 34.86);
+INSERT INTO Product_Features VALUES (1099, 'iPhone 15 Pro', 120000, 52581.86, 4.8, 13, 21.98);
+INSERT INTO Product_Features VALUES (1100, 'Samsung S25 Ultra', 110000, 50017.42, 4.9, 6, 29.47);
+
+select * from Product_Features;
+
+
+
+CREATE TABLE IF NOT EXISTS product_status (
+    Product_ID INT,
+    Product_Name VARCHAR(255),
+    Actual_Market_Price DECIMAL(10,2),
+    Listed_Price DECIMAL(10,2),
+    Rating DECIMAL(3,2),
+    Reviews_Count INT,
+    Seller_Score DECIMAL(5,2),
+    Status VARCHAR(20)
+);
+
+select * from product_status;
