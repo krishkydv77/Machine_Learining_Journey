@@ -166,8 +166,4 @@ It contains:
 
 ## Goal
 
-The purpose of this repository is to build a strong foundation in Machine Learning through continuous learning, practice, 
-
-practical implementation, experimentation, and real-world project development. Every topic includes theory, coding practice,
-
-and practical implementation using Python and Scikit-Learn.
+The purpose of this repository is to build a strong foundation in Machine Learning through continuous learning, practice, practical implementation, experimentation, and real-world project development. Every topic includes theory, coding practice,and practical implementation using Python and Scikit-Learn.
